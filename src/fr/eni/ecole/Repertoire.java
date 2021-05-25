@@ -1,3 +1,7 @@
+/**
+ * Classe Répertoire qui hérite de Element
+ */
+
 package fr.eni.ecole;
 
 import java.util.ArrayList;
@@ -12,12 +16,21 @@ public class Repertoire extends Element {
         listeElements = new ArrayList<>();
     }
 
+    /**
+     * Méthode pour ajouter un element dans la liste
+     * @param e
+     */
     public void addElements(Element e) {
         e.chemin = this.chemin + "\\" + this.nom;
         this.listeElements.add(e);
     }
 
 
+    /**
+     * Fonction de recherche en fonction d'un nom
+     * On rapelle la fonction dans la fonction
+     * @param nom
+     */
     public void recherche(String nom) {
         if (this.nom.equals(nom)) {
             System.out.println(this.chemin + "\\" + nom);

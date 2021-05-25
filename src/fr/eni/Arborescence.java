@@ -1,3 +1,7 @@
+/**
+ * Méthode main de test
+ */
+
 package fr.eni;
 
 import fr.eni.ecole.Fichier;

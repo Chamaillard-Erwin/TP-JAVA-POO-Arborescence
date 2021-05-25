@@ -1,7 +1,9 @@
-package fr.eni.ecole;
+/**
+ * Classe element avec un constructeur et des attributs d'instance
+ */
 
-import java.util.ArrayList;
-import java.util.List;
+
+package fr.eni.ecole;
 
 public class Element {
 
